@@ -1,0 +1,209 @@
+* {
+    box-sizing: border-box;
+}
+header {
+    height: 72px;
+    border-bottom: 1px solid rgba(42, 47, 55, 0.12);
+}
+.container {
+    width: 1170px;
+    margin: auto;
+} 
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    color: #2A2F37;
+    font-weight: 500;
+}
+.d-grid {
+    display: grid;
+}
+.col-3 {
+grid: auto / repeat(3,1fr);
+}
+
+.d-flex-sb {
+    display: flex;
+    justify-content: space-between;
+}
+.d-flex {
+    display: flex;
+    
+}
+.login {
+    gap: 96px;
+}
+.entrance {
+    gap: 12px;
+}
+.visual {
+    height: 504px;
+    align-items: center;
+}
+.about {
+    width: 464px;
+}
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.search {
+    height: 24px;
+    width: 315px;
+    transition: .4s cubic-bezier(0, 0.8, 0, 1);
+    margin-left: 16px;
+    
+}
+.find-ads {
+    height: 30px;
+    width: 416px;
+    margin-top: 34px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    color: #2A2F37;
+    padding-left: 16px;
+    
+}
+input {
+    border: none;
+    outline-color: #9a9ea1;
+    transition: .4s cubic-bezier(0, 0.8, 0, 1);
+    z-index: 2;
+}
+input:focus {
+    z-index: 1;
+    width: 360px;
+  }
+form button {
+    border: none;
+}
+.btn-blue {
+    background: #1E3DAF;
+    height: 40px;
+    color: #FFFFFF;
+    padding: 8px 16px;
+}
+
+
+.main-menu {
+    list-style-type: none;
+    padding-left: 0px;
+    padding-top: 20px;
+    margin-bottom: 80px;
+    gap: 48px;
+    
+}
+a {
+    text-decoration: none;
+    color: #2A2F37;
+}
+.news-feed {
+    background: #F5F5F5;
+}
+.foto-announce {
+    background-image: url(images/New\ year.jpg);
+    width: 364px;
+    height: 200px;
+    position: relative;
+}
+.overlay {
+    position: absolute;
+    bottom: 11%;
+    left: 4%;
+    font-size: 14px;
+}
+.announce {
+    height: 448px;
+    width: 364px;
+    margin-top: 9px;
+    background-color: #FFFFFF;
+  
+
+}
+.info-announce {
+    height: 248px;
+    padding: 24px;
+}
+.price {
+    padding-left: 85%;
+}
+ /* .d-flex-wrap { 
+   display: flex;
+   flex-wrap: wrap;
+   gap: 39px;
+}*/
+.views {
+    align-items: center;
+    gap: 9px;
+}
+.more {
+    height: 248px;
+    justify-content: center;
+    
+}
+.more button {
+    width: 242px;
+    height: 48px;
+    align-items: center;
+    margin-top: 40px;
+    border: 1px solid #2a2f37;
+    font-weight: 700;
+}
+footer {
+    background: #2A2F37;
+    color: #FFFFFF;
+}
+footer a {
+    color: #FFFFFF;
+}
+.logo-bottom {
+    padding-top: 48px;
+    font-size: 12px;
+    font-weight: 400;
+    
+}
+.logo-bottom span {
+    border-left: 1px solid #FFFFFF;
+    padding-left: 40px;
+    margin-left: 30px;
+}
+.bottom-menu-item {
+    list-style-type: none;
+    padding-left: 0px;
+    padding-top: 64px;
+    padding-bottom: 48px;
+    border-bottom: 1px solid #FFFFFF;
+    font-weight: 400;
+}
+.footer-bot {
+    padding-top: 24px;
+    padding-bottom: 48px;
+    font-size: 12px;
+    font-weight: 400;
+}
+.social-icons {
+    align-items: center;
+    gap: 20px;
+}
+.social-icon {
+    background-color: rgba(250, 250, 250, 0.50);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+.facebook {
+    padding-left: 13px;
+    padding-top: 6px;
+ } 
+
+.VK {
+    padding-left: 6px;
+    padding-top: 11px;
+ } 
+ .Inst {
+    padding-left: 8px;
+    padding-top: 8px;
+ } 
+ 
